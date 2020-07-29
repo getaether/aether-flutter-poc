@@ -24,7 +24,13 @@ class AEMockedModelBuilder extends AEModelBuilder {
   @override
   // TODO: implement homeManager
   AEHomeManager get homeManager {
-
+//    var accessories = [
+//      AEAccessory("1", "1", "1", "1", "1", room),
+//      AEAccessory("2", "2", "2", "2", "2", room),
+//      AEAccessory("1", "1", "1", "1", "1", room),
+//      AEAccessory("1", "1", "1", "1", "1", room),
+//      AEAccessory("1", "1", "1", "1", "1", room),
+//    ]
   }
 
 }

@@ -11,4 +11,6 @@ class AEHome<AERoom> extends AEListManager {
 
   bool isPrimary;
   String name, uniqueIdentifier;
+
+  AEHome(this._accessories, this.isPrimary, this.name, this.uniqueIdentifier) : super(super.list);
 }

@@ -7,4 +7,5 @@ class AEHomeManager<AEHome> extends AEListManager {
 
   List<AEHome> get homes => super.list;
 
+  AEHomeManager() : super(super.list);
 }
