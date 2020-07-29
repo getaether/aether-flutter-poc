@@ -9,10 +9,10 @@ import Flutter
   ) -> Bool {
 
   let CHANNEL_NAME = "co.getaether/getaether-flutter"
-  let controller = window?.rootViewController as! FlutterViewController
-  let channel = FlutterMethodChannel(name: CHANNEL_NAME, binaryMessenger: controller)
+    let controller: FlutterViewController = window?.rootViewController as! FlutterViewController
+    let channel = FlutterMethodChannel(name: CHANNEL_NAME, binaryMessenger: controller.binaryMessenger)
 
-  channel.setMethodCallHelper { [unowned self] (call, result) in
+  channel.setMethodCallHandler { [unowned self] (call, result) in
     switch call.method {
          case "getDetails": result("TA AI OS DETALHES")
          default: result("Deu ruim pai")
