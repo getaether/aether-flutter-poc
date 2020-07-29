@@ -11,8 +11,6 @@ class AEiOSModelBuilder extends AEModelBuilder{
   // TODO: implement homeManager
   AEHomeManager get homeManager => throw UnimplementedError();
 
-
-
 }
 
 class AEAndroidModelBuilder extends AEModelBuilder {

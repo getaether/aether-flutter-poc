@@ -9,7 +9,7 @@ class AEModelFacade {
 
   AEModelFacade._withBuilder(this._builder);
   factory AEModelFacade() {
-    return AEModelFacade._withBuilder(AEMockedModelBuilder());
+    return AEModelFacade._withBuilder(AEMockedModelBuilder()); // Remove this line to use a real backend
     if (Platform.isIOS) {
       return AEModelFacade._withBuilder(AEiOSModelBuilder());
     }
@@ -17,5 +17,4 @@ class AEModelFacade {
   }
 
   AEHomeManager get defaultManager => this._builder.homeManager;
-
 }
