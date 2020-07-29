@@ -15,6 +15,7 @@
 		97C147011CF9000F007C117D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97C146FF1CF9000F007C117D /* LaunchScreen.storyboard */; };
 		D734E97924D140C20088B12D /* HomeKitWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D734E97824D140C20088B12D /* HomeKitWrapper.swift */; };
 		D734E97D24D14E360088B12D /* HomeKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D734E97C24D14E360088B12D /* HomeKit.framework */; };
+		D77EE0F324D15AD90017E612 /* ChannelWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D77EE0F224D15AD90017E612 /* ChannelWrapper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -47,6 +48,7 @@
 		D734E97824D140C20088B12D /* HomeKitWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeKitWrapper.swift; sourceTree = "<group>"; };
 		D734E97A24D14E360088B12D /* Runner.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Runner.entitlements; sourceTree = "<group>"; };
 		D734E97C24D14E360088B12D /* HomeKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HomeKit.framework; path = System/Library/Frameworks/HomeKit.framework; sourceTree = SDKROOT; };
+		D77EE0F224D15AD90017E612 /* ChannelWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelWrapper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 				74858FAE1ED2DC5600515810 /* AppDelegate.swift */,
 				74858FAD1ED2DC5600515810 /* Runner-Bridging-Header.h */,
 				D734E97824D140C20088B12D /* HomeKitWrapper.swift */,
+				D77EE0F224D15AD90017E612 /* ChannelWrapper.swift */,
 			);
 			path = Runner;
 			sourceTree = "<group>";
@@ -230,6 +233,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D734E97924D140C20088B12D /* HomeKitWrapper.swift in Sources */,
+				D77EE0F324D15AD90017E612 /* ChannelWrapper.swift in Sources */,
 				74858FAF1ED2DC5600515810 /* AppDelegate.swift in Sources */,
 				1498D2341E8E89220040F4C2 /* GeneratedPluginRegistrant.m in Sources */,
 			);
