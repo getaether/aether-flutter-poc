@@ -7,7 +7,7 @@ class HomeKitWrapper extends AbstractWrapper {
 
   @override
   String details() {
-    this.manager.getDetails().then((value) => print("Veio!"));
+    this.manager.getDetails().then((value) => print(value));
   }
 
 }
