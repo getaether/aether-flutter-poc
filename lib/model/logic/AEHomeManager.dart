@@ -1,4 +1,3 @@
-
 import 'package:aether/model/logic/AEListManager.dart';
 
 class AEHomeManager<AEHome> extends AEListManager {
