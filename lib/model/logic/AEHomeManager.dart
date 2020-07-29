@@ -1,12 +1,11 @@
 
-import 'package:aether/model/AEListManager.dart';
+import 'package:aether/model/logic/AEListManager.dart';
 
-class HomeFacade<AEHome> extends AEListManager {
+class AEHomeManager<AEHome> extends AEListManager {
 
   // TODO get from HomeKit/Google Home
   AEHome primaryHome() => super.list.first;
 
   List<AEHome> get homes => super.list;
-
 
 }

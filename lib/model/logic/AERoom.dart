@@ -1,8 +1,9 @@
 
-import 'package:aether/model/AEListManager.dart';
+import 'package:aether/model/logic/AEListManager.dart';
 
 class AERoom<AEAccessory> extends AEListManager{
 
   List<AEAccessory> get accessories => this.list;
+  String name, uuid;
 
 }
