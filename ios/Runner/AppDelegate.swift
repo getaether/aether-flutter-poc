@@ -7,6 +7,11 @@ import Flutter
     _ application: UIApplication,
     didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?
   ) -> Bool {
+    
+    let _ = HomeKitWrapper.instance
+    
+    ChannelWrapper.instance.load(binaryMessenger: (window.rootViewController as! FlutterViewController).binaryMessenger )
+
     GeneratedPluginRegistrant.register(with: self)
     return super.application(application, didFinishLaunchingWithOptions: launchOptions)
   }
